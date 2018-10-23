@@ -1,3 +1,5 @@
+require 'lts_gem_handling'
+
 if Rails.enable_gem_handling?
 
   desc "List the gems that this rails application depends on"
